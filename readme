@@ -10,4 +10,5 @@
 
     1) cd client > npm install > npm run start
     2) cd server > npm install > npm run start
+    3) npx sequelize db:migrate
 
