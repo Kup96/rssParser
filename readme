@@ -1,13 +1,13 @@
 Клиент на 3000 порту!
 #--build --force-recreate --remove-orphans
 
-2. Docker-compose:
+1. Docker-compose:
 
     1) docker-compose --file docker-compose.yaml up
     2) docker ps
     3) docker exec -it "server_container NAME" sequelize db:migrate
 
-3. Без докера:
+2. Без докера:
 
     1) cd client > npm install > npm run start
     1) cd server > npm install > npm run start
