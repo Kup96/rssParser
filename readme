@@ -4,11 +4,10 @@
 1. Docker-compose:
 
     1) docker-compose --file docker-compose.yaml up
-    2) docker ps
-    3) docker exec -it "server_container NAME" sequelize db:migrate
+    2) docker exec -it rssparser_server-dev_1 sequelize db:migrate
 
 2. Без докера:
 
     1) cd client > npm install > npm run start
-    1) cd server > npm install > npm run start
+    2) cd server > npm install > npm run start
 
